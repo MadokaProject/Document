@@ -2,9 +2,9 @@
 home: true
 heroImage: /madoka.png
 heroText: Madoka
-tagline: Madoka一个可自定义的，基于Graia和Mirai的集群管、功能、娱乐为一体的QQ插件式机器人
+tagline: 一个基于 Graia 和 Mirai 的快速、可配置、可自定义插件的 QQ 机器人
 actionText: 快速上手 →
-actionLink: /user-docs/
+actionLink: /doc/
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
