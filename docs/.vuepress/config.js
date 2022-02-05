@@ -18,16 +18,16 @@ module.exports = {
                 link: '/doc/',
             },
             {
+                text: '配置项',
+                link: '/settings/',
+            },
+            {
                 text: '开发者文档',
                 items: [
                     { text: '插件开发文档', link: '/developer/doc/' },
                     { text: 'API列表', link: '/developer/api/' },
                     { text: '其他语言SDK', link: '/developer/sdk/' },
                 ],
-            },
-            {
-                text: '配置项',
-                link: '/settings/',
             },
             {
                 text: '更新日志',
