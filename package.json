@@ -8,16 +8,13 @@
   "license": "MIT",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "deploy": "bash deploy.sh",
-    "updateTheme": "yarn remove vuepress-theme-vdoing && rm -rf node_modules && yarn && yarn add vuepress-theme-vdoing -D",
-    "editFm": "node utils/editFrontmatter.js"
+    "docs:build": "vuepress build docs"
   },
   "devDependencies": {
     "dayjs": "^1.9.7",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
-    "vuepress": "^1.9.7",
+    "vuepress": "^1.9.2",
     "vuepress-plugin-baidu-tongji": "^1.0.1",
     "vuepress-plugin-demo-block": "^0.7.2",
     "vuepress-plugin-fulltext-search": "^2.2.1",
