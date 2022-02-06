@@ -36,5 +36,5 @@ jobs:
       env:
         REPO: self
         BRANCH: gh-pages
-        FOLDER: dist
+        FOLDER: docs/.vuepress/dist
         GITHUB_TOKEN: ${{ secrets.TOKEN }}

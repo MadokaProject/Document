@@ -1,5 +1,4 @@
 const baiduCode = require('./config/baiduCode.js'); // 百度统计hm码
-const htmlModules = require('./config/htmlModules.js');
 
 module.exports = {
     theme: 'vdoing', // 使用依赖包主题
@@ -13,9 +12,6 @@ module.exports = {
         ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
         ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
         ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
-
-        ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
-        ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
     ],
 
     // 主题配置
@@ -71,76 +67,40 @@ module.exports = {
 
         category: false, // 是否打开分类功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含分类字段 2.页面中显示与分类相关的信息和模块 3.自动生成分类页面（在@pages文件夹）。如关闭，则反之。
         tag: false, // 是否打开标签功能，默认true。 如打开，会做的事情有：1. 自动生成的frontmatter包含标签字段 2.页面中显示与标签相关的信息和模块 3.自动生成标签页面（在@pages文件夹）。如关闭，则反之。
-        // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
+        archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
         author: {
             // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-            name: 'Evan Xu', // 必需
-            href: 'https://github.com/xugaoyi', // 可选的
+            name: 'MadokaProject', // 必需
+            href: 'https://github.com/MadokaProject', // 可选的
         },
         social: {
             // 社交图标，显示于博主信息栏和页脚栏
             // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
             icons: [
                 {
-                    iconClass: 'icon-youjian',
-                    title: '发邮件',
-                    link: 'mailto:894072666@qq.com',
-                },
-                {
                     iconClass: 'icon-github',
                     title: 'GitHub',
                     link: 'https://github.com/MadokaProject/',
-                },
-                {
-                    iconClass: 'icon-erji',
-                    title: '听音乐',
-                    link: 'https://music.163.com/#/playlist?id=755597173',
                 },
             ],
         },
         footer: {
             // 页脚信息
             createYear: 2021, // 博客创建年份
-            copyrightInfo: '<a href="https://github.com/MadokaProject/Madoka">Madoka Project</a>', // 博客版权信息，支持a标签
+            copyrightInfo: '<a href="https://github.com/MadokaProject">Madoka Project</a>', // 博客版权信息，支持a标签
         },
-        htmlModules,
     },
 
     // 插件
     plugins: [
-        // [require('./plugins/love-me'), { // 鼠标点击爱心特效
-        //   color: '#11a8cd', // 爱心颜色，默认随机色
-        //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
-        // }],
-
         ['fulltext-search'], // 全文搜索
-
-        // ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
-        //   thirdparty: [ // 可选，默认 []
-        //     {
-        //       title: '在GitHub中搜索',
-        //       frontUrl: 'https://github.com/search?q=', // 搜索链接的前面部分
-        //       behindUrl: '' // 搜索链接的后面部分，可选，默认 ''
-        //     },
-        //     {
-        //       title: '在npm中搜索',
-        //       frontUrl: 'https://www.npmjs.com/search?q=',
-        //     },
-        //     {
-        //       title: '在Bing中搜索',
-        //       frontUrl: 'https://cn.bing.com/search?q='
-        //     }
-        //   ]
-        // }],
-
         [
             'vuepress-plugin-baidu-tongji', // 百度统计
             {
-                hm: baiduCode || '01293bffa6c3962016c08ba685c79d78',
+                hm: baiduCode || '40ef9985e6385285e79d2f733ef06a6b',
             },
         ],
-
         [
             'one-click-copy',
             {
