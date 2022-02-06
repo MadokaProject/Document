@@ -14,12 +14,12 @@ module.exports = {
                 link: '/',
             },
             {
-                text: '使用文档',
-                link: '/doc/',
-            },
-            {
                 text: '配置项',
                 link: '/settings/',
+            },
+            {
+                text: '使用文档',
+                link: '/doc/',
             },
             {
                 text: '开发者文档',
@@ -35,7 +35,7 @@ module.exports = {
             },
             {
                 text: '加入QQ群',
-                link: '//',
+                link: 'https://qm.qq.com/cgi-bin/qm/qr?k=Jx_8y7GzLkF3ac0oOXwJRdiCcUHVdlLb&jump_from=webapi',
             },
             {
                 text: 'Github',
