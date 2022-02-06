@@ -29,12 +29,12 @@ jobs:
       run: npm ci
 
     - name: Generate Static Files
-      run: npm run docs:build && ls && pwd
+      run: npm run docs:build
 
     - name: Deploy
       uses: s0/git-publish-subdir-action@develop
       env:
         REPO: self
         BRANCH: gh-pages
-        FOLDER: docs/.vuepress/dist
+        FOLDER: dist
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
