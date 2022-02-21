@@ -9,11 +9,11 @@ bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | no
 
 features: # 可选的
   - title: 简洁 · 高效
-    details: 基于Mirai和Graia，只需简单的配置，就可以运行一个高效稳定的跨平台QQ机器人
+    details: 基于Mirai和Graia, 只需简单的配置, 就可以运行一个高效稳定的跨平台QQ机器人
   - title: 灵活 · 智能
-    details: 轻应用级别插件拓展，支持动态加载，支持计划任务，一个插件可创造无限的想象力
+    details: 轻应用级别插件拓展, 支持动态加载, 支持计划任务, 一个插件可创造无限的想象力
   - title: 多语言 · 跨平台
-    details: 用Web端高效管理机器人，SDK简单方便，以最实用的API功能助你专注于插件开发
+    details: 用Web端高效管理机器人, SDK简单方便, 以最实用的API功能助你专注于插件开发
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
@@ -36,19 +36,10 @@ postList: none
 
 <br/> -->
 
-<p align="center">
-  <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank"><img src="https://img.shields.io/badge/license-AGPL--v3-green" alt="License" class="no-zoom"></a>
-  <a href="https://docs.python.org/zh-cn/3.8/" target="_blank"><img src="https://img.shields.io/badge/python-3.8-blue" alt="Python" class="no-zoom"></a>
-  <a href="https://github.com/MadokaProject/Madoka" target="_blank"><img src='https://img.shields.io/github/stars/MadokaProject/Madoka' alt='GitHub stars' class="no-zoom"></a>
-  <a href="https://github.com/MadokaProject/Madoka/releases/latest" target="_blank"><img src='https://img.shields.io/github/v/release/MadokaProject/Madoka' alt='Github Release' class="no-zoom"></a>
-</p>
-
-<br/>
-
 ## ⚡ 反馈与交流
 
-在使用过程中有任何问题和想法，请给我提 [Issue](https://github.com/MadokaProject/Madoka/issues)。
-你也可以在Issue查看别人提的问题和给出解决方案。
+在使用过程中有任何问题和想法, 请给我提 [Issue](https://github.com/MadokaProject/Madoka/issues).
+你也可以在Issue查看别人提的问题和给出解决方案.
 
 或者加入我们的QQ交流群：
 
