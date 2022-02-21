@@ -18,7 +18,6 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: '首页', link: '/' },
-            { text: '配置项', link: '/settings/' },
             { text: '使用文档', link: '/doc/' },
             {
                 text: '开发者文档',
@@ -94,6 +93,7 @@ module.exports = {
 
     // 插件
     plugins: [
+        ['tabs'],
         ['fulltext-search'], // 全文搜索
         [
             'vuepress-plugin-baidu-tongji', // 百度统计
