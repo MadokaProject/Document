@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://static.colsrch.cn/storage/madoka/image/logo.png
+heroImage: https://static.colsrch.cn/storage/madoka/image/logo.svg
 heroText: # Madoka
 tagline: 一个基于 Graia 和 Mirai 的快速、可配置、可自定义插件的 QQ 机器人
 actionText: 开始使用 →
