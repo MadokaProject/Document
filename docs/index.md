@@ -4,7 +4,7 @@ heroImage: https://static.colsrch.cn/storage/madoka/image/logo.svg
 heroText: # Madoka
 tagline: 一个基于 Graia 和 Mirai 的快速、可配置、可自定义插件的 QQ 机器人
 actionText: 开始使用 →
-actionLink: /doc/
+actionLink: /doc/v4/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的

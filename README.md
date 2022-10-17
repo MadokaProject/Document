@@ -5,8 +5,8 @@
 ### 拉取
 
 ``` bash
-git clone https://github.com/MadokaProject/docs.git
-cd docs
+git clone https://github.com/MadokaProject/Document.git
+cd Document
 npm i
 ```
 

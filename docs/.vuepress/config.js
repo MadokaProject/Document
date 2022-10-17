@@ -18,7 +18,14 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: '首页', link: '/' },
-            { text: '使用文档', link: '/doc/' },
+            {
+                text: '使用文档',
+                link: '/doc/v4/',
+                items: [
+                    { text: '文档 v4', link: '/doc/v4/' },
+                    { text: '旧版文档 v3', link: '/doc/v3/' }
+                ]
+            },
             {
                 text: '开发者文档',
                 items: [
