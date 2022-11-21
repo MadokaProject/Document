@@ -1,0 +1,27 @@
+name: Sync Coding
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run Curl
+        run: |
+          curl -u ${{ secrets.CODING_TOKEN_API }} \
+             -v -X POST  'https://madokaproject.coding.net/api/cci/job/1570729/trigger' \
+             -H 'Content-Type: application/json' \
+             -d '
+              {
+                "envs": [
+                  {
+                    "name": "BRANCH",
+                    "value": "${{ github.ref_name }}",
+                    "sensitive": 0
+                  }
+                ]
+              }'
