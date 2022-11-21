@@ -28,10 +28,10 @@ module.exports = {
             },
             {
                 text: '开发者文档',
+                link: '/developer/v4/doc/',
                 items: [
-                    { text: '插件开发文档', link: '/developer/doc/' },
-                    { text: 'API列表', link: '/developer/api/' },
-                    { text: '其他语言SDK', link: '/developer/sdk/' },
+                    { text: '开发文档 v4', link: '/developer/v4/doc/' },
+                    { text: '旧版开发文档 v3', link: '/developer/v3/doc/' },
                 ],
             },
             { text: '更新日志', link: '/release/' },
